@@ -16,9 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pyQ-lv-8OX">
+                                <rect key="frame" x="50" y="443" width="314" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="0NC-aG-0cH"/>
+                                </constraints>
+                            </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0V6-at-aSg">
-                                <rect key="frame" x="179.5" y="433" width="55" height="30"/>
-                                <state key="normal" title="Convert"/>
+                                <rect key="frame" x="192" y="383" width="30" height="30"/>
+                                <state key="normal" title="변환"/>
                                 <connections>
                                     <action selector="convertButtonDidTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zne-Bt-oOs"/>
                                 </connections>
@@ -27,10 +33,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0V6-at-aSg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8YQ-eG-b2e"/>
-                            <constraint firstItem="0V6-at-aSg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qNc-8h-t04"/>
+                            <constraint firstItem="pyQ-lv-8OX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4CO-C8-ajd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pyQ-lv-8OX" secondAttribute="trailing" constant="50" id="8g8-Nt-boO"/>
+                            <constraint firstItem="pyQ-lv-8OX" firstAttribute="top" secondItem="0V6-at-aSg" secondAttribute="bottom" constant="30" id="QGA-DQ-Bsk"/>
+                            <constraint firstItem="pyQ-lv-8OX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nXK-6W-dV8"/>
+                            <constraint firstItem="pyQ-lv-8OX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="qQ5-Ni-TQT"/>
+                            <constraint firstItem="0V6-at-aSg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s7o-0o-Ldc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressBar" destination="pyQ-lv-8OX" id="0eV-zx-LkJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
