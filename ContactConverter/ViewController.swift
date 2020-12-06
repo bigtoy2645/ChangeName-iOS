@@ -11,6 +11,7 @@ import Contacts
 class ViewController: UIViewController {
     
     @IBOutlet weak var progressBar: UIProgressView!
+    @IBOutlet weak var convertButton: UIButton!
     
     let contactStore = CNContactStore()
     var contacts = [CNContact]()
@@ -20,6 +21,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         progressBar.progress = 0
+        convertButton.clipsToBounds = true
+        convertButton.layer.cornerRadius = 8
     }
     
     /* 변환 버튼 클릭 */
