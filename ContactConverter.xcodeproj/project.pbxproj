@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1ABA2FCF2577948300C59C5E /* ContactConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABA2FCF2577948300C59C5E /* 연락처 바꾸기.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "연락처 바꾸기.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABA2FD22577948300C59C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABA2FD42577948300C59C5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1ABA2FD62577948300C59C5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		1ABA2FD02577948300C59C5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1ABA2FCF2577948300C59C5E /* ContactConverter.app */,
+				1ABA2FCF2577948300C59C5E /* 연락처 바꾸기.app */,
 				1ABA2FE52577948500C59C5E /* ContactConverterTests.xctest */,
 				1ABA2FF02577948500C59C5E /* ContactConverterUITests.xctest */,
 			);
@@ -155,7 +155,7 @@
 			);
 			name = ContactConverter;
 			productName = ContactConverter;
-			productReference = 1ABA2FCF2577948300C59C5E /* ContactConverter.app */;
+			productReference = 1ABA2FCF2577948300C59C5E /* 연락처 바꾸기.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1ABA2FE42577948500C59C5E /* ContactConverterTests */ = {
@@ -453,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yurim.ContactConverter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "연락처 바꾸기";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yurim.ContactConverter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "연락처 바꾸기";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
